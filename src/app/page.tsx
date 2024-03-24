@@ -3,28 +3,30 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 relative z-10">
-<div className="fixed top-0 left-0 w-full bg-black text-white py-12 border-t-2 border-[#141414] hover:text-white overflow-hidden">
-  <div className="container mx-auto px-4 flex justify-between">
-    <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
-      <div className="flex items-center">
-        <img src="/PoorGuy.1vHead2.png" alt="Image" className="w-6 h-6 mr-2" />
-        <p>$Poorcoin is #1 Creamcoin on SOLANA</p>
+      <div className="fixed top-0 left-0 w-full bg-black text-white py-12 border-t-2 border-[#141414] hover:text-white overflow-hidden">
+        <div className="container mx-auto px-4 flex flex-col"> {/* Changed flex justify-between to flex-col */}
+          <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
+            <div className="flex items-center">
+              <img src="/PoorGuy.1vHead2.png" alt="Image" className="w-6 h-6 mr-2" />
+              <p>$Poorcoin is #1 Creamcoin on SOLANA</p>
+            </div>
+          </div>
+          <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
+            <div className="flex items-center">
+              <img src="/PoorGuy.1vHead2.png" alt="Image" className="w-6 h-6 mr-2" />
+              <p>The $Poor NEVER DIE!</p>
+            </div>
+          </div>
+          <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
+            <div className="flex items-center">
+              <img src="/PoorGuy.1vHead2.png" alt="Image" className="w-6 h-6 mr-2" />
+              <p>Live a $Poor Life</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
-      <div className="flex items-center">
-        <img src="/PoorGuy.1vHead2.png" alt="Image" className="w-6 h-6 mr-2" />
-        <p>The $Poor NEVER DIE!</p>
-      </div>
-    </div>
-    <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
-      <div className="flex items-center">
-        <img src="/PoorGuy.1vHead2.png" alt="Image" className="w-6 h-6 mr-2" />
-        <p>Live a $Poor Life</p>
-      </div>
-    </div>
-  </div>
-</div>
+    
+
 
 
 
