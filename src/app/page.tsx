@@ -15,8 +15,8 @@ export default function Home() {
           </div>
           <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
             <div className="flex items-center">
-              <img src="/PoorGuy.1vHead2.png" alt="Image" className="w-6 h-6 mr-2" />
-              <p>The $Poor NEVER DIE!</p>
+              <img src="/PoorMath01.png" alt="Image" className="w-6 h-6 mr-2" />
+              <p>The $Poor Math!</p>
             </div>
           </div>
           <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
