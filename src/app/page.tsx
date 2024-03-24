@@ -3,6 +3,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 relative z-10">
+      <img src="/background.png" alt="Background Image" class="background-image">
+
       <div className="fixed top-0 left-0 w-full bg-black text-white py-12 border-t-2 border-[#141414] hover:text-white overflow-hidden">
         <div className="container mx-auto px-4 flex flex-col"> {/* Changed flex justify-between to flex-col */}
           <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
