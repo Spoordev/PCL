@@ -3,8 +3,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 relative z-10">
-     
-
       <div className="fixed top-0 left-0 w-full bg-black text-white py-12 border-t-2 border-[#141414] hover:text-white overflow-hidden">
         <div className="container mx-auto px-4 flex flex-col"> {/* Changed flex justify-between to flex-col */}
           <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
@@ -16,7 +14,7 @@ export default function Home() {
           <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
             <div className="flex items-center">
               <img src="/PoorMath01.png" alt="Image" className="w-6 h-6 mr-2" />
-              <p>Use $Poor Math!</p>
+              <p>$Poor Math!</p>
             </div>
           </div>
           <div className="flex items-center whitespace-nowrap overflow-hidden animate-scrolling">
@@ -30,15 +28,7 @@ export default function Home() {
     
 
 
-
-
-
-
-
-
-
-
-      <div className="fixed bottom-0 left-0 flex h-auto w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+     <div className="fixed bottom-0 left-0 flex h-auto w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
   <a
     className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
     href="https://twitter.com/POORonSOL"
