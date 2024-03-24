@@ -52,7 +52,7 @@ body::before {
   left: 0;
   width: 10%; /* 10% of the viewport width */
   height: 10%; /* 10% of the viewport height */
-  background-image: url('https://gateway.ipfs-upload.com/ipfs/Qmf3tmSuhwLuWLMAo2W1oYMt4raiQd8wiUKbLEaVXQLY6K'); /* Your image path */
+  background-image: url('https://ipfs.io/ipfs/Qmf3tmSuhwLuWLMAo2W1oYMt4raiQd8wiUKbLEaVXQLY6K'); /* Your image path */
   object-fit: cover; /* Make the image cover the entire container */
   z-index: -1; /* Ensure the image is behind other content */
 }
