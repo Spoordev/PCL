@@ -31,13 +31,17 @@ body {
   ) rgb(var(--background-start-rgb));
 }
 
-body::before {
+body::before,
+body::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+body::before {
   background: linear-gradient(
     to bottom,
     transparent,
@@ -46,14 +50,9 @@ body::before {
   z-index: 1;
 }
 
-.background-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 10%; /* 10% of the viewport width */
-  height: 10%; /* 10% of the viewport height */
+body::after {
   background-image: url('https://ipfs.io/ipfs/Qmf3tmSuhwLuWLMAo2W1oYMt4raiQd8wiUKbLEaVXQLY6K'); /* Your image path */
-  object-fit: cover; /* Make the image cover the entire container */
+  background-size: cover; /* Make the image cover the entire container */
   z-index: -1; /* Ensure the image is behind other content */
 }
 
