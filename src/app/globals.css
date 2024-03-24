@@ -51,7 +51,7 @@ body::before {
 }
 
 body::after {
-  background-image: url('https://ipfs.io/ipfs/Qmf3tmSuhwLuWLMAo2W1oYMt4raiQd8wiUKbLEaVXQLY6K');
+  background-image: url('/Background.png');
   background-size: 10% 10%; /* 10% of the viewport width and height */
   position: fixed;
   top: 0;
