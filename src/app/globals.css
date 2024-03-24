@@ -53,8 +53,8 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/Public/background.png'); /* Your image path */
-  background-size: 10%; /* Make the background image cover 75% of the screen */
+  background-image: url('/background.png'); /* Your image path */
+  background-size: 10%; /* Make the background image cover 10% of the screen */
   background-position: center;
   z-index: 0;
 }
