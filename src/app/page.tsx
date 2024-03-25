@@ -148,7 +148,7 @@ export default function Home() {
   <img src="/239.png" alt="Small Image" className="w-6 h-6" />
 </a>
         </div>
-        <div className="mt-4 text-secondary">© 2024 $Poor</div>
+        <div className="mt-4 text-secondary">© 2024 $Proof Of Our Riches</div>
       </div>
       
       <div>
